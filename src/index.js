@@ -1,4 +1,6 @@
 import("./square.wasm").then(squareModule => {
-    document.writeln("Hello WebAssembly");
-    document.writeln(squareModule.square(2));
+    const container = document.createElement("div");
+    container.innerText = "Hello, WebAssembly.";
+    container.innerText += " square(2) is " + squareModule.square(2);
+    document.body.appendChild(container);
 });
