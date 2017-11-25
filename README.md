@@ -1,7 +1,7 @@
 # webpack-webassembly-tester
 Experimenting with webpacks new webassembly support
 
-Keep an eye on https://github.com/webpack/webpack/pull/5945
+Keep an eye on https://github.com/webpack/webpack/tree/next
 
 ## To run
 
