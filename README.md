@@ -9,6 +9,7 @@ You need to checkout the latest versions of webpack and webpack-dev-middleware a
 
 ```commandline
 mkdir wasm-demo
+cd wasm-demo
 
 # build next branch of webpack
 git clone https://github.com/webpack/webpack.git
