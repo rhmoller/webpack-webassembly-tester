@@ -29,7 +29,7 @@ npm link
 cd ..
 
 # checkout and build this repository
-git clone git@github.com:rhmoller/webpack-webassembly-tester.git
+git clone https://github.com/rhmoller/webpack-webassembly-tester.git
 cd webpack-webassembly-tester
 npm i
 npm link webpack
